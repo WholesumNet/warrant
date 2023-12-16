@@ -1,12 +1,12 @@
 [package]
-name = "verify"
+name = "warrant"
 version = "0.1.0"
 edition = "2021"
 
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
-risc0-zkvm = { path = "/root/risc0-0.17.0/risc0/zkvm" }
+risc0-zkvm = "0.19"
 serde = "1.0"
 serde_json = "1.0"
 hex = "0.4.3"
